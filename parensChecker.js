@@ -48,7 +48,7 @@ function betterParensChecker(str){
       return false
     }
   }
-  
+
   if (count == 0) {
     return true
   } else {
@@ -64,6 +64,7 @@ var testD = ')('            // false
 var testE = '))'            // false
 var testF = 'a'             // false
 var testG = '(9+0)+(9+0))'  // false
+var testH = '('             // false
 
 console.log(betterParensChecker(testA));
 console.log(betterParensChecker(testB));
